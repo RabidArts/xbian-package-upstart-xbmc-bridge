@@ -9,7 +9,7 @@
         <summary lang="it">Trasforma eventi di XBMC in eventi di Upstart</summary>
         <!-- /Translatable strings -->
     </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
